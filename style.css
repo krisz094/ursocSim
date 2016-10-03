@@ -1,0 +1,58 @@
+/** {
+    border: 1px solid black;
+}*/
+
+.unitFrame {
+    text-align:center;
+    border: 1px solid black;
+    box-shadow: 0.1px 1px 1px #000;
+}
+
+#upperDiv, #lowerDiv {
+    padding: 10%;
+}
+
+
+#over {
+    /*visibility: hidden;*/
+}
+#rend {
+    /*visibility: hidden;*/
+}
+#bossCasts {
+    width: 20%;
+}
+img {
+    margin:0;
+    height:30px;
+    width:30px;
+    display:inline-block;
+
+}
+meter {
+    margin:0;
+    display:inline-block;
+    width: 70%;
+    height:30px;
+}
+#tank1, #tank2, #bossTarget, #bossCasts {
+    position: absolute;
+    display:inline-block;
+    width:20%;
+}
+#boss {
+    position:absolute;
+    width: 40%;
+    left:30%;
+    top: 5%;
+}
+#bossTarget {
+    left: 40%;
+    top: 25%;
+}
+#tank1 {
+    left: 25%;
+}
+#tank2 {
+    left: 55%;
+}
